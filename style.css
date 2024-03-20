@@ -1,11 +1,14 @@
 html{
     height: 100%;
-    width: 100%;
+    width: 2000px;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     height: 100%;
-    width: 100%;
+    width: 4000px;
+    margin: 0;
 }
 .blackbox{
     background-color: black;
@@ -16,7 +19,28 @@ body{
 .boid{
     background-color: blueviolet;
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    margin: none;
+    width: 30px;
+    height: 20px;
     border-radius: 50%;
+}
+
+.red{
+    background-color: rgba(238, 0, 255, 0.358) !important;
+}
+
+.violet{
+    background-color: blueviolet !important;
+}
+
+.blue{
+    background-color: rgb(52, 25, 102);
+}
+
+.pink{
+    background-color: rgb(141, 86, 141);
+}
+
+.green{
+    background-color: rgb(95, 36, 95);
 }
